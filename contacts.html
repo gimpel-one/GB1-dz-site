@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  
+    <link rel="stylesheet" href="site_style.css">
+
+</head>
+<body>
+
+	<form> 
+  <fieldset> 
+    <legend class="text-green">Мы свяжемся с вами: 
+    </legend>
+
+      <div>
+      	<label for="client_id">ID клиента</label>
+        <input type="search" id="client_id">
+      </div>
+
+      <div>
+      	<label for="name">Имя</label>
+        <input type="text" id="name" placeholder="Александр Петров" required>
+      </div>
+
+      <div>
+      	<label for="age">Возраст</label>
+        <input type="number" id="age" min="10" max="200" placeholder="28">
+      </div>
+
+      <div>
+      	<label for="date">Дата рождения</label>
+        <input type="date" id="date"  value="1988-01-01">
+      </div>
+
+      <div>
+      <strong>Пол</strong>
+      	<label for="gender_male">
+        <input type="radio" id="gender_male" name="gender" checked>
+        Мужской
+        </label>
+      </div>
+
+      <div>
+      	<label for="gender_female">
+        <input type="radio" id="gender_female" name="gender">
+        Женский
+        </label>
+      </div>
+
+      <div>
+      	<label for="tel">Телефон</label>
+		<input type="tel" id="tel" value="+7.........." maxlength="11" required>
+      </div>
+
+      <div>
+      	<label for="email">Email</label>
+		<input type="email" id="email" placeholder="example@example.com" required>
+      </div>
+
+       <div>
+      	<label for="password">Пароль</label>
+		<input type="password" id="password">
+      </div>
+
+      <div>
+      	<label for="sign">Подписаться на рассылку</label>
+		<input type="checkbox" id="sign">
+      </div>
+
+			<fieldset>
+				<legend>Дополнительно</legend>
+				<div>
+					<label for="city">Город</label>
+					<select id="city">
+						<optgroup label="Россия">
+							<option value="">Москва</option>
+							<option value="">Санкт-Петебург</option>
+							<option value="">Псков</option>
+							<option value="">Новгород</option>
+							<option value="">Архангельск</option>
+						</optgroup>
+						<optgroup label="Израиль"> 
+							<option value="" selected>Тель-Авив</option>
+							<option value="">Раанана</option>
+						</optgroup>
+					</select>
+				</div>
+
+				<div>
+				<label for="interests" multiple>Интересы</label>
+				<select id="interests">
+					<option value="">Собаки</option>
+					<option value="">Музыка</option>
+					<option value="">Дача</option>
+					<option value="">Путешествия</option>
+				</select>
+				</div>
+				
+				<div>
+				<label for="comment">Ваш комментарий</label>
+				<textarea name="" id="comment" cols="30" rows="10" placeholder="Комментарий"></textarea>
+				</div>
+
+				<div>
+					<label for="file">Фото паспорта</label>
+					<input type="file">
+				</div>
+
+			</fieldset>
+
+      <div>
+      		<input type="button" value="Это просто кнопка">
+      		<input type="submit" value="Отправить">
+      		<input type="reset" value="Сбросить">
+
+      </div>
+
+      <div>
+      	<button type="button">
+      		<i>Кнопочка</i>
+      	</button>
+      	<button>
+      		<b>Hello!</b>
+      	</button>
+      </div>
+
+
+
+  </fieldset>
+</form>
+
+</body>
+</html>

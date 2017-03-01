@@ -1,0 +1,52 @@
+html {
+	font-size: 20px;
+}
+
+.header1 {
+	color: brown;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.text-green {
+	color: green; 
+}
+
+.notice-paragraph {
+	font-size: 18px;
+	color: maroon;
+	font-style: italic;
+	border-left: 2px solid;
+	padding-left: 15px
+
+}
+
+.armchair-name {
+	color: green;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.description {
+	color: maroon;
+	margin-left: 2px; 
+}
+
+body {
+	background: #F5FAB1;
+	font-family: Verdana, sans-serif;
+}
+#header
+{
+	background: #999;
+	text-align: center;
+	border: 1px solid #000;
+	margin-top: 18px;
+}
+#footer {
+	background-color: #F5FAB1;
+	border: 1px solid #000;
+	text-align: left;
+	height: 140 px;
+	font-size: 24px;
+}
